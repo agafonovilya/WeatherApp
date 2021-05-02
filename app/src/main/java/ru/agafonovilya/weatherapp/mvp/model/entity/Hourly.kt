@@ -1,0 +1,19 @@
+package ru.agafonovilya.weatherapp.mvp.model.entity
+
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+
+class Hourly {
+    @SerializedName("dt")
+    @Expose
+    var dt: Int? = null
+
+    @SerializedName("temp")
+    @Expose
+    var temp: Double? = null
+
+    @SerializedName("weather")
+    @Expose
+    var weather: MutableList<HourlyWeather>? = null
+
+}

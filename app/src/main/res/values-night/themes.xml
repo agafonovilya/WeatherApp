@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeatherApp.Night" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@android:color/holo_red_dark</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">#302625</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!--Component styles-->
+        <item name="materialButtonStyle">@style/ButtonStyle_night</item>
+        <item name="textInputStyle">@style/TextInputLayout_night</item>
+        <item name="textColorDailyScreen">@color/quantum_white_secondary_text</item>
+        <item name="materialCardViewStyle">@style/CardViewStyle_night</item>
+    </style>
+
+    <!-- Button style-->
+    <style name="ButtonStyle_night" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="iconSize">35dp</item>
+    </style>
+
+    <!--Style for TextInputLayout-->
+    <style name="TextInputLayout_night" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="hintTextColor">@android:color/holo_red_dark</item>
+        <item name="boxStrokeColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <!--Style for CardView-->
+    <style name="CardViewStyle_night" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBackgroundColor_night</item>
+    </style>
+
+</resources>
+

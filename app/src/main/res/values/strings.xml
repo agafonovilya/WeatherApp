@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">WeatherApp</string>
+    <string name="change_city">Change city</string>
+    <string name="morning">Morning</string>
+    <string name="day">Day</string>
+    <string name="evening">Evening</string>
+    <string name="light">Light</string>
+    <string name="night">Night</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="humidity">Humidity</string>
+</resources>

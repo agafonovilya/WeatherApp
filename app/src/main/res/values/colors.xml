@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimaryDark">@android:color/darker_gray</color>
+    <color name="windowBackground">@android:color/background_light</color>
+    <color name="windowBackground_night">@android:color/background_dark</color>
+    <color name="textColorPrimary">@android:color/black</color>
+    <color name="textColorSecondary">#5A5A5A</color>
+
+    <color name="currentWeatherBackground">@android:color/darker_gray</color>
+
+    <color name="autoCompleteTextView">#dedede</color>
+    <color name="autoCompleteTextView_night">@android:color/darker_gray</color>
+
+    <color name="cardBackgroundColor">#dedede</color>
+    <color name="cardBackgroundColor_night">@android:color/darker_gray</color>
+</resources>
